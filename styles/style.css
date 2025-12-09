@@ -10,7 +10,110 @@
 
 */
 
-.page {
-  min-inline-size: 320px;
-  min-block-size: 100dvb;
+/* Sayfa arka planı */
+body.page {
+  background-image: url("../images/background.png");
+  background-size: auto;
+  font-family: "Inter", sans-serif;
+  background-size: 1440px 960px;
+}
+
+
+/* HEADER — Figma: 700×368 */
+.header {
+  width: 696px;
+  height: 368px;
+  background: white;
+  border: 2px solid black;
+  margin: 100px auto;   /* Ortala + yukarıdan 100px */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  font-family: "Press Start 2P", sans-serif;
+  gap: 20px;
+}
+
+.title {
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.description {
+  font-size: 23px;
+  font-weight: 400;
+  line-height: 100%;
+}
+.first-pic{
+  width: 696px;
+  position: relative;
+  margin: 100px auto;
+  align-items: center;
+  justify-content: center;
+}
+
+.title-box{
+  width: 696px;
+  height: 33px;
+  padding: 5px 10px;
+  background-color: white;
+  position: relative;
+  border: 2px solid black;
+  margin: 0px auto;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+
+}
+.title-box__inner{
+  width: 696px;
+  height: 31px;
+  position: absolute;
+  padding: 3px 24px 3px 10px;
+}
+.title-box__text{
+  width: 662px;
+  height:25px;
+  font-weight: 700;
+  font-size: 18px;
+  position: absolute;
+}
+.post-image img {
+width: 696px;
+height: 696px;
+top: 35px;
+border: 2px solid black;
+display: flex;
+}
+.html{
+position: absolute;
+opacity: 0.5;
+top: 25px;
+left: 573px;
+right: 25px;
+bottom: 657px;
+width: 98px;
+height: 14px;
+font-family: "Press Start 2P", sans-serif;
+font-weight: 400;
+border: 1px solid rgba(255, 255, 255, 1);
+background: transparent;
+}
+.content{
+  width: 696px;
+  height: 224px;
+  border: 2px solid black;
+  background-color: white;
+  margin-top: 0px; 
+
+}
+.content-text-box{
+  width: 646px;
+  height: 111px;
+  margin: 25px 25px 88px 25px;
+}
+.text2{
+  margin-top: 27px;
 }
