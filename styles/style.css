@@ -54,7 +54,7 @@ body.page {
   justify-content: center;
 }
 
-.title-box{
+.title-box {
   width: 696px;
   height: 33px;
   padding: 5px 10px;
@@ -67,13 +67,13 @@ body.page {
   background-color: white;
 
 }
-.title-box__inner{
+.title-box__inner {
   width: 696px;
   height: 31px;
   position: absolute;
   padding: 3px 24px 3px 10px;
 }
-.title-box__text{
+.title-box__text {
   width: 662px;
   height:25px;
   font-weight: 700;
@@ -87,7 +87,7 @@ top: 35px;
 border: 2px solid black;
 display: flex;
 }
-.html{
+.html {
 position: absolute;
 opacity: 0.5;
 top: 25px;
@@ -101,7 +101,7 @@ font-weight: 400;
 border: 1px solid rgba(255, 255, 255, 1);
 background: transparent;
 }
-.content{
+.content {
   width: 696px;
   height: 224px;
   border: 2px solid black;
@@ -109,11 +109,11 @@ background: transparent;
   margin-top: 0px; 
 
 }
-.content-text-box{
+.content-text-box {
   width: 646px;
   height: 111px;
   margin: 25px 25px 88px 25px;
 }
-.text2{
+.text2 {
   margin-top: 27px;
 }
