@@ -13,7 +13,6 @@
 /* Sayfa arka planı */
 body.page {
   background-image: url("../images/background.png");
-  background-size: auto;
   font-family: "Inter", sans-serif;
   background-size: 1440px 960px;
 }
@@ -64,8 +63,6 @@ body.page {
   margin: 0px auto;
   align-items: center;
   justify-content: center;
-  background-color: white;
-
 }
 .title-box__inner {
   width: 696px;
