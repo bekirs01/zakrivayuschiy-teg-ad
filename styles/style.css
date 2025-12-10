@@ -78,36 +78,101 @@ body.page {
   font-size: 18px;
   position: absolute;
 }
+.post-image {
+  position: relative;
+}
 .post-image img {
 width: 696px;
 height: 696px;
-top: 35px;
 border: 2px solid black;
 display: flex;
 }
 .html {
 position: absolute;
 opacity: 0.5;
-width: 98px;
-height: 14px;
-margin: 25px 25px 657px 573px;
+top: 25px;
+right: 25px;
 font-family: "Press Start 2P", sans-serif;
 font-weight: 400;
 -webkit-text-stroke: 1px white;
 }
 
 .content {
+  position: relative;
   width: 696px;
-  height: 224px;
   border: 2px solid black;
   background-color: white;
   margin-top: 0px; 
+  padding-bottom: 84px;
 }
-.content-text-box {
+.second-content-text-box {
+  margin-top: 25px;
+  margin-left:auto;
+  margin-right:auto;
+
   width: 646px;
-  height: 111px;
-  margin: 25px 25px 88px 25px;
+}
+.text1 {
+  font-weight: 400px;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
 }
 .text2 {
+
+  font-weight: 400px;
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
   margin-top: 27px;
+}
+.buttons {
+  position: absolute;
+  bottom:25px;
+  right: 25px;
+  gap: 12px;
+  display: flex;
+  align-items: center; 
+}
+.like {
+  height: 38px;
+  width: 130px;
+  border: 2px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Press Start 2P", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+}
+.heart img {
+  width: 27px;
+  height: 24px;
+  image-rendering: pixelated;
+  border: none;
+}
+.second-content {
+  position: relative;
+  width: 696px;
+  border: 2px solid black;
+  background-color: white;
+  margin-top: 0px; 
+  padding-bottom: 88px
+}
+.save {
+  width: 335px;
+  height: 51px;
+  border: 2px solid black;
+  display: flex;       
+  align-items: center;   
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 120px;
+}
+.book {
+  margin-left: 19px;
+}
+.end {
+  margin-left: 8px;
+  font-weight: 400;
+  font-family: "Press Start 2P", sans-serif;
+  font-size: 14px;
 }
