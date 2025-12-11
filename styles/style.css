@@ -124,7 +124,7 @@ font-weight: 400;
   font-family: "Inter", sans-serif;
   margin-top: 27px;
 }
-.buttons {
+.card__icon-button {
   position: absolute;
   bottom:25px;
   right: 25px;
@@ -132,7 +132,7 @@ font-weight: 400;
   display: flex;
   align-items: center; 
 }
-.like {
+.card__like-button {
   height: 38px;
   width: 130px;
   border: 2px solid black;
@@ -143,7 +143,7 @@ font-weight: 400;
   font-weight: 400;
   font-size: 14px;
 }
-.heart img {
+.like-icon img {
   width: 27px;
   height: 24px;
   image-rendering: pixelated;
@@ -155,7 +155,7 @@ font-weight: 400;
   border: 2px solid black;
   background-color: white;
   margin-top: 0px; 
-  padding-bottom: 88px
+  padding-bottom: 88px;
 }
 .save {
   width: 335px;
