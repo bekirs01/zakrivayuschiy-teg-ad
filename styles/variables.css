@@ -1,1 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --color-contour-heart: black;
+  --color-main-heart: red;
+  --color-sparks-heart: red;
+  --size-inline-button-save: 335px;
+}
